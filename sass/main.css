@@ -1,0 +1,27 @@
+.container-grand {
+  width: 100%;
+}
+
+.casino {
+  width: 400px;
+}
+
+.palaisr {
+  width: 500px;
+}
+
+.contenair-un {
+  display: flex;
+  flex-direction: row;
+}
+
+.titre-casino {
+  -webkit-padding-start: 50%;
+          padding-inline-start: 50%;
+  align-items: center;
+}
+
+.paragraphe-casino {
+  -webkit-padding-start: 50%;
+          padding-inline-start: 50%;
+}/*# sourceMappingURL=main.css.map */
