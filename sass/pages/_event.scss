@@ -1,22 +1,13 @@
 //  page de Denis ! Ne pas toucher sans l'ordre du propriétaire
-.container-grand{
-    width:100%;
-    
-}
-.casino{
-    width: 400px;
-}
-.palaisr{
-    width: 500px;
-}
-.contenair-un{
+
+.container-un{
     display: flex;
-    flex-direction: row;
-}
-.titre-casino{
-    padding-inline-start: 50%;
-   align-items: center;
-}
-.paragraphe-casino{
-    padding-inline-start: 50%;
+    .casino{
+        width:850px;
+        height: 500px;
+        padding-left: 250px;
+    }
+    .titre-paragraphe{
+        padding-left: 50px;
+    }
 }
