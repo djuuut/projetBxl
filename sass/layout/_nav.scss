@@ -1,1 +1,36 @@
 // page de Tiph ! Ne pas toucher sans l'ordre de la propriétaire
+* {
+    margin : 0;
+    padding: : 0;
+}
+
+body { 
+    background-color: aqua;
+}
+
+.main.t {
+    width: 100%;
+    background: linear-gradient(to top, rgba (0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.nav.t {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon.t {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo.t {
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
