@@ -4,10 +4,10 @@
     display: grid;
     grid-template-columns: 20% 40% 20% 20%;
     align-items: center;
-    box-shadow: 0 0 10px #000;
-    background : rgba(0,0,0,0.5);
-    /*background-color: $color-white;*/
+    background-color: $color-white;
 }
+
+
 
 .imgNav {
     width: 150px;
@@ -38,10 +38,10 @@
 
 .menu-t ul li a {
     text-decoration: none;
-    color: #D9D9D9D9 ;
+    color: $color-black;
     font-weight: bold;
     transition: 0.2s ease-in-out;
-    
+
 }
 
 .menu-t ul li a:hover {
@@ -63,29 +63,30 @@
 }
 
 
-.srch-t { 
+.srch-t {
     width: 150px;
     padding: 2%;
     border-radius: 8%;
     background: transparent;
     border: 2% solid;
-    
-} 
+
+}
 
 .search-t button {
     padding: 2%;
     width: 30%;
     border-radius: 8%;
     background-color: $color-black;
-    color: $color-white;    
+    color: $color-white;
 }
 
 input .srch-t {
-    border:none;
+    border: none;
     margin: 10px 15px 5px;
     font-size: 20px;
     outline: none;
     color: $color-black;
+
 }
 
 .search-t button:hover {
@@ -93,6 +94,3 @@ input .srch-t {
     color: $color-black;
     transition: 0.2s ease-in-out;
 }
-
-
-
