@@ -1,6 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Cinzel", serif;
-<<<<<<< HEAD
 }
 
 p {
@@ -17,55 +16,26 @@ form {
   flex-direction: column;
 }
 
-legend {
-  display: flex;
-  justify-content: center;
+.navbar-t {
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+  align-items: center;
+  border-bottom-style: inset;
+  background-color: #ffffff;
 }
 
-.container-grand {
-  width: 100%;
-=======
->>>>>>> c27a0728498d519b931d77fd188a114f932223a8
+.imgNav {
+  width: 150px;
 }
 
-p {
-  font-family: "Quicksand", sans-serif;
-}
-
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-}
-
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
-}
-
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
-}
-
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-.menu {
+.menu-t {
   width: 400px;
   float: left;
   height: 70px;
+  justify-content: space-around;
 }
 
-ul {
+.menu-t ul {
   float: left;
   display: flex;
   justify-content: center;
@@ -73,11 +43,64 @@ ul {
   list-style: none;
 }
 
-ui li {
+.menu-t ul li {
   list-style: none;
-  margin-left: 62px;
-  margin-top: 27px;
+  margin-left: 45%;
+  margin-top: 5%;
   font-size: 14px;
+}
+
+.menu-t ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-t ul li a:hover {
+  color: #AA8453;
+}
+
+.btnn2 button {
+  padding: 13px 20px;
+  border-radius: 10%;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 2%;
+}
+
+.btnn2 button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+}
+
+.srch-t {
+  width: 150px;
+  padding: 2%;
+  border-radius: 8%;
+  background: transparent;
+  border: 2% solid;
+}
+
+.search-t button {
+  padding: 2%;
+  width: 30%;
+  border-radius: 8%;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.search-t button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+}
+
+legend {
+  display: flex;
+  justify-content: center;
 }
 
 .container-un {
