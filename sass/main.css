@@ -6,6 +6,12 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
+<<<<<<< HEAD
+body {
+  background-color: #666666;
+}
+
+=======
 .form {
   display: flex;
   justify-content: center;
@@ -16,6 +22,7 @@ form {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
@@ -26,6 +33,54 @@ form {
 
 .imgNav {
   width: 150px;
+=======
+body {
+  background-color: aqua;
+}
+
+.main.t {
+  width: 100%;
+  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.nav.t {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon.t {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo.t {
+  font-size: 35px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+legend {
+  display: flex;
+  justify-content: center;
+}
+
+<<<<<<< HEAD
+=======
+.container-grand {
+  width: 100%;
+=======
+>>>>>>> c27a0728498d519b931d77fd188a114f932223a8
+>>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
 }
 
 .menu-t {
@@ -50,6 +105,7 @@ form {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 .menu-t ul li a {
   text-decoration: none;
   color: #000000;
@@ -103,14 +159,49 @@ legend {
   justify-content: center;
 }
 
+=======
+>>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
+>>>>>>> 16e9f2a8387691ad374471a2a20554d8040433d7
+>>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
 .container-un {
   display: flex;
 }
 .container-un .casino {
   width: 850px;
-  height: 500px;
+  height: 650px;
   padding-left: 250px;
+  padding-top: 50px;
 }
 .container-un .titre-paragraphe {
-  padding-left: 50px;
+  padding-left: 150px;
+  padding-top: 100px;
+  padding-right: 150px;
+}
+
+.container-deux {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+.container-deux .palaisr {
+  width: 850px;
+  padding-left: 150px;
+}
+.container-deux .texte-deux {
+  padding-left: 150px;
+  align-self: center;
+}
+
+.container-trois {
+  display: flex;
+  padding-right: 150px;
+}
+.container-trois .festival {
+  width: 850px;
+  padding-left: 250px;
+}
+
+.texte-trois {
+  padding-left: 150px;
+  padding-top: 100px;
 }/*# sourceMappingURL=main.css.map */
