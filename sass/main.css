@@ -22,23 +22,15 @@ form {
   width: 10%;
 }
 
-<<<<<<< HEAD
-.navbar-t {
-  display: grid;
-  grid-template-columns: 20% 40% 20% 20%;
-=======
 input, textarea {
   padding: 2%;
 }
 
 .sexe {
   display: flex;
->>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
-  align-items: center;
+  flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
 .sexe p {
   display: flex;
   justify-content: baseline;
@@ -47,6 +39,7 @@ input, textarea {
 
 .genre {
   display: flex;
+  flex-direction: column;
 }
 
 .navbar-t {
@@ -56,7 +49,6 @@ input, textarea {
   background-color: #ffffff;
 }
 
->>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
 .imgNav {
   width: 200px;
 }
@@ -138,8 +130,6 @@ input .srch-t {
   transition: 0.2s ease-in-out;
 }
 
-<<<<<<< HEAD
-=======
 fieldset {
   display: flex;
   flex-direction: column;
@@ -151,28 +141,6 @@ h1 .legend {
   align-items: center;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
-legend {
-  display: flex;
-  justify-content: center;
-}
-
-<<<<<<< HEAD
-=======
-body {
-  background-color: #666666;
-}
-
-=======
->>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
->>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
->>>>>>> 5cd462514c2841cb41d694a66b6611442b63c5e3
->>>>>>> df99cc3cb4f1a5a600e1e35095e2d7b286da8c08
 .container-un {
   display: flex;
 }
