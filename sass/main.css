@@ -37,14 +37,6 @@ input, textarea {
   margin-right: 15%;
 }
 
-<<<<<<< HEAD
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-=======
 .genre {
   display: flex;
 }
@@ -107,7 +99,6 @@ input, textarea {
   background-color: rgba(217, 217, 217, 0.8509803922);
   color: #000000;
   transition: 0.2s ease-in-out;
->>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
 }
 
 .srch-t {
@@ -151,18 +142,6 @@ h1 .legend {
   align-items: center;
 }
 
-<<<<<<< HEAD
-legend {
-  display: flex;
-  justify-content: center;
-}
-
-body {
-  background-color: #666666;
-}
-
-=======
->>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
 .container-un {
   display: flex;
 }
