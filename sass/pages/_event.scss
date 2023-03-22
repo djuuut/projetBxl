@@ -1,13 +1,50 @@
 //  page de Denis ! Ne pas toucher sans l'ordre du propriétaire
-
+body{
+   background-color: $color-gray;
+}
 .container-un{
-    display: flex;
+  display: flex;
     .casino{
         width:850px;
-        height: 500px;
-        padding-left: 250px;
+        height: 650px;
+       padding-left: 250px;
+       
+ 
+    padding-top: 50px;
     }
     .titre-paragraphe{
-        padding-left: 50px;
+        padding-left: 150px;
+        padding-top: 100px;
+        padding-right: 150px;
     }
 }
+.container-deux{
+    display: flex;
+     flex-direction: row-reverse;
+     padding-right: 100px;
+     
+   
+    .palaisr{
+        width: 850px;
+        padding-left: 150px;
+        
+    }
+    .texte-deux{
+        padding-left: 150px;
+        align-self: center;
+        }
+}
+.container-trois{
+    display: flex;
+    padding-right: 150px;
+    .festival{
+        width: 850px;
+        padding-left: 250px;
+    }
+   
+}
+.texte-trois{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+

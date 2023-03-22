@@ -6,14 +6,49 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+  background-color: #666666;
+}
+
 .container-un {
   display: flex;
 }
 .container-un .casino {
   width: 850px;
-  height: 500px;
+  height: 650px;
   padding-left: 250px;
+  padding-top: 50px;
 }
 .container-un .titre-paragraphe {
-  padding-left: 50px;
+  padding-left: 150px;
+  padding-top: 100px;
+  padding-right: 150px;
+}
+
+.container-deux {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+.container-deux .palaisr {
+  width: 850px;
+  padding-left: 150px;
+}
+.container-deux .texte-deux {
+  padding-left: 150px;
+  align-self: center;
+}
+
+.container-trois {
+  display: flex;
+  padding-right: 150px;
+}
+.container-trois .festival {
+  width: 850px;
+  padding-left: 250px;
+}
+
+.texte-trois {
+  padding-left: 150px;
+  padding-top: 100px;
 }/*# sourceMappingURL=main.css.map */
