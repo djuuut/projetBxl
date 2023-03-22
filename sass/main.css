@@ -12,44 +12,64 @@ p {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
+  width: 50%;
 }
 
+#envoyer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 10%;
+}
+
+input, textarea {
+  padding: 2%;
+}
+
+.sexe {
+  display: flex;
+  align-items: center;
+}
+
+.sexe p {
+  display: flex;
+  justify-content: baseline;
+  margin-right: 15%;
+}
+
+<<<<<<< HEAD
 .main.t {
   width: 100%;
   background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
   background-position: center;
   background-size: cover;
   height: 109vh;
+=======
+.genre {
+  display: flex;
 }
 
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
+.navbar-t {
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+  align-items: center;
+  box-shadow: 0 0 10px #000;
+  background: rgba(0, 0, 0, 0.5);
+  /*background-color: $color-white;*/
 }
 
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
+.imgNav {
+  width: 150px;
 }
 
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-.menu {
+.menu-t {
   width: 400px;
   float: left;
   height: 70px;
+  justify-content: space-around;
 }
 
-ul {
+.menu-t ul {
   float: left;
   display: flex;
   justify-content: center;
@@ -57,13 +77,81 @@ ul {
   list-style: none;
 }
 
-ui li {
+.menu-t ul li {
   list-style: none;
-  margin-left: 62px;
-  margin-top: 27px;
+  margin-left: 45%;
+  margin-top: 5%;
   font-size: 14px;
 }
 
+.menu-t ul li a {
+  text-decoration: none;
+  color: rgba(217, 217, 217, 0.8509803922);
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-t ul li a:hover {
+  color: #AA8453;
+}
+
+.btnn2 button {
+  padding: 13px 20px;
+  border-radius: 10%;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 2%;
+}
+
+.btnn2 button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+>>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
+}
+
+.srch-t {
+  width: 150px;
+  padding: 2%;
+  border-radius: 8%;
+  background: transparent;
+  border: 2% solid;
+}
+
+.search-t button {
+  padding: 2%;
+  width: 30%;
+  border-radius: 8%;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+input .srch-t {
+  border: none;
+  margin: 10px 15px 5px;
+  font-size: 20px;
+  outline: none;
+  color: #000000;
+}
+
+.search-t button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 50% 10%;
+}
+
+h1 .legend {
+  display: flex;
+  align-items: center;
+}
+
+<<<<<<< HEAD
 legend {
   display: flex;
   justify-content: center;
@@ -73,6 +161,8 @@ body {
   background-color: #666666;
 }
 
+=======
+>>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
 .container-un {
   display: flex;
 }
@@ -80,11 +170,12 @@ body {
   width: 850px;
   height: 650px;
   padding-left: 250px;
+  padding-bottom: 100px;
   padding-top: 50px;
 }
 .container-un .titre-paragraphe {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 250px;
   padding-right: 150px;
 }
 
@@ -92,13 +183,14 @@ body {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 100px;
+  padding-bottom: 100px;
 }
 .container-deux .palaisr {
   width: 850px;
   padding-left: 150px;
 }
 .container-deux .texte-deux {
-  padding-left: 150px;
+  padding-left: 250px;
   align-self: center;
 }
 
@@ -113,5 +205,15 @@ body {
 
 .texte-trois {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+p {
+  line-height: 35px;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=main.css.map */
