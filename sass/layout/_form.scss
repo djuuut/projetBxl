@@ -1,1 +1,11 @@
 // page de Julien ! Ne pas toucher sans l'ordre du propriétaire
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
