@@ -56,6 +56,67 @@ legend {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+.container-grand {
+  width: 100%;
+=======
+>>>>>>> c27a0728498d519b931d77fd188a114f932223a8
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.main.t {
+  width: 100%;
+  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.nav.t {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon.t {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo.t {
+  font-size: 35px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ui li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+>>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
 .container-un {
   display: flex;
 }
