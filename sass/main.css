@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Cinzel", serif;
+<<<<<<< HEAD
 }
 
 p {
@@ -23,28 +24,22 @@ legend {
 
 .container-grand {
   width: 100%;
+=======
+>>>>>>> c27a0728498d519b931d77fd188a114f932223a8
 }
 
-.casino {
-  width: 400px;
+p {
+  font-family: "Quicksand", sans-serif;
 }
 
-.palaisr {
-  width: 500px;
-}
-
-.contenair-un {
+.container-un {
   display: flex;
-  flex-direction: row;
 }
-
-.titre-casino {
-  -webkit-padding-start: 50%;
-          padding-inline-start: 50%;
-  align-items: center;
+.container-un .casino {
+  width: 850px;
+  height: 500px;
+  padding-left: 250px;
 }
-
-.paragraphe-casino {
-  -webkit-padding-start: 50%;
-          padding-inline-start: 50%;
+.container-un .titre-paragraphe {
+  padding-left: 50px;
 }/*# sourceMappingURL=main.css.map */
