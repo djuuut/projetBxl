@@ -6,12 +6,6 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
-<<<<<<< HEAD
-body {
-  background-color: #666666;
-}
-
-=======
 .form {
   display: flex;
   justify-content: center;
@@ -20,58 +14,6 @@ body {
 form {
   display: flex;
   flex-direction: column;
-}
-
-body {
-  background-color: aqua;
-}
-
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-}
-
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
-}
-
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
-}
-
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-legend {
-  display: flex;
-  justify-content: center;
-}
-
-<<<<<<< HEAD
-=======
-.container-grand {
-  width: 100%;
-=======
->>>>>>> c27a0728498d519b931d77fd188a114f932223a8
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
 }
 
 .main.t {
@@ -122,8 +64,11 @@ ui li {
   font-size: 14px;
 }
 
->>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
->>>>>>> 16e9f2a8387691ad374471a2a20554d8040433d7
+legend {
+  display: flex;
+  justify-content: center;
+}
+
 .container-un {
   display: flex;
 }
@@ -131,11 +76,12 @@ ui li {
   width: 850px;
   height: 650px;
   padding-left: 250px;
+  padding-bottom: 100px;
   padding-top: 50px;
 }
 .container-un .titre-paragraphe {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 250px;
   padding-right: 150px;
 }
 
@@ -143,13 +89,14 @@ ui li {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 100px;
+  padding-bottom: 100px;
 }
 .container-deux .palaisr {
   width: 850px;
   padding-left: 150px;
 }
 .container-deux .texte-deux {
-  padding-left: 150px;
+  padding-left: 250px;
   align-self: center;
 }
 
@@ -164,5 +111,15 @@ ui li {
 
 .texte-trois {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+p {
+  line-height: 35px;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=main.css.map */
