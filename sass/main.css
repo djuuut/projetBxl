@@ -12,18 +12,61 @@ p {
 }
 
 form {
+  width: 50%;
+}
+
+#envoyer {
   display: flex;
-  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  width: 10%;
+}
+
+<<<<<<< HEAD
+.navbar-t {
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+=======
+input, textarea {
+  padding: 2%;
+}
+
+.sexe {
+  display: flex;
+>>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
+  align-items: center;
+}
+
+<<<<<<< HEAD
+=======
+.sexe p {
+  display: flex;
+  justify-content: baseline;
+  margin-right: 15%;
+}
+
+<<<<<<< HEAD
+.main.t {
+  width: 100%;
+  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+=======
+.genre {
+  display: flex;
 }
 
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
   align-items: center;
-  border-bottom-style: inset;
-  background-color: #ffffff;
+  box-shadow: 0 0 10px #000;
+  background: rgba(0, 0, 0, 0.5);
+  /*background-color: $color-white;*/
 }
 
+>>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
 .imgNav {
   width: 150px;
 }
@@ -52,8 +95,7 @@ form {
 
 .menu-t ul li a {
   text-decoration: none;
-  color: #000000;
-  font-family: "Quicksand", sans-serif;
+  color: rgba(217, 217, 217, 0.8509803922);
   font-weight: bold;
   transition: 0.2s ease-in-out;
 }
@@ -74,6 +116,7 @@ form {
   background-color: rgba(217, 217, 217, 0.8509803922);
   color: #000000;
   transition: 0.2s ease-in-out;
+>>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
 }
 
 .srch-t {
@@ -92,17 +135,49 @@ form {
   color: #ffffff;
 }
 
+input .srch-t {
+  border: none;
+  margin: 10px 15px 5px;
+  font-size: 20px;
+  outline: none;
+  color: #000000;
+}
+
 .search-t button:hover {
   background-color: rgba(217, 217, 217, 0.8509803922);
   color: #000000;
   transition: 0.2s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 50% 10%;
+}
+
+h1 .legend {
+  display: flex;
+  align-items: center;
+}
+
+<<<<<<< HEAD
+>>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
 legend {
   display: flex;
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+body {
+  background-color: #666666;
+}
+
+=======
+>>>>>>> f903c12a4e3ef0054be637f37fbea1746b849ae1
+>>>>>>> 11238a54d50565ed116b018fd4dba0eac0414631
 .container-un {
   display: flex;
 }

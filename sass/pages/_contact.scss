@@ -1,6 +1,12 @@
 //  page de Julien ! Ne pas toucher sans l'ordre du propriétaire
 
-legend {
+fieldset {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 5% 10% 50% 10%;
+}
+
+h1 .legend {
+    display: flex;
+    align-items: center;
 }
