@@ -6,6 +6,16 @@
 }
 
 form {
+    width: 50%;
+}
+
+#envoyer {
     display: flex;
-    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+}
+
+input, textarea {
+    padding: 2%;
 }

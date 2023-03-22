@@ -12,60 +12,18 @@ p {
 }
 
 form {
+  width: 50%;
+}
+
+#envoyer {
   display: flex;
-  flex-direction: column;
-}
-
-body {
-  background-color: aqua;
-}
-
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-}
-
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
-}
-
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
-}
-
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-legend {
-  display: flex;
+  align-self: center;
   justify-content: center;
+  width: 10%;
 }
 
-<<<<<<< HEAD
-=======
-.container-grand {
-  width: 100%;
-=======
->>>>>>> c27a0728498d519b931d77fd188a114f932223a8
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
+input, textarea {
+  padding: 2%;
 }
 
 .main.t {
@@ -116,7 +74,17 @@ ui li {
   font-size: 14px;
 }
 
->>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 50% 10%;
+}
+
+h1 .legend {
+  display: flex;
+  align-items: center;
+}
+
 .container-un {
   display: flex;
 }
