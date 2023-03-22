@@ -16,6 +16,25 @@ form {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.navbar-t {
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+  align-items: center;
+  border-bottom-style: inset;
+  background-color: #ffffff;
+}
+
+.imgNav {
+  width: 150px;
+=======
+body {
+  background-color: aqua;
+}
+
+>>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
 .main.t {
   width: 100%;
   background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
@@ -43,25 +62,11 @@ form {
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .menu {
-  width: 400px;
-  float: left;
-  height: 70px;
-}
-
-ul {
-  float: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-ui li {
-  list-style: none;
-  margin-left: 62px;
-  margin-top: 27px;
-  font-size: 14px;
+=======
+a {
+  text-decoration: none;
 }
 
 legend {
@@ -69,6 +74,102 @@ legend {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+.container-grand {
+  width: 100%;
+=======
+>>>>>>> c27a0728498d519b931d77fd188a114f932223a8
+>>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
+}
+
+.menu-t {
+>>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
+  width: 400px;
+  float: left;
+  height: 70px;
+  justify-content: space-around;
+}
+
+.menu-t ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-t ul li {
+  list-style: none;
+  margin-left: 45%;
+  margin-top: 5%;
+  font-size: 14px;
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.menu-t ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-t ul li a:hover {
+  color: #AA8453;
+}
+
+.btnn2 button {
+  padding: 13px 20px;
+  border-radius: 10%;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 2%;
+}
+
+.btnn2 button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+}
+
+.srch-t {
+  width: 150px;
+  padding: 2%;
+  border-radius: 8%;
+  background: transparent;
+  border: 2% solid;
+}
+
+.search-t button {
+  padding: 2%;
+  width: 30%;
+  border-radius: 8%;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.search-t button:hover {
+  background-color: rgba(217, 217, 217, 0.8509803922);
+  color: #000000;
+  transition: 0.2s ease-in-out;
+}
+
+>>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
+legend {
+  display: flex;
+  justify-content: center;
+}
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
+>>>>>>> 16e9f2a8387691ad374471a2a20554d8040433d7
+>>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
+>>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
 .container-un {
   display: flex;
 }
