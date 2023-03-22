@@ -26,6 +26,21 @@ input, textarea {
   padding: 2%;
 }
 
+.sexe {
+  display: flex;
+  align-items: center;
+}
+
+.sexe p {
+  display: flex;
+  justify-content: baseline;
+  margin-right: 15%;
+}
+
+.genre {
+  display: flex;
+}
+
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
@@ -34,7 +49,7 @@ input, textarea {
 }
 
 .imgNav {
-  width: 150px;
+  width: 200px;
 }
 
 .menu-t {
