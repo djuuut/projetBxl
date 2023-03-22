@@ -17,15 +17,30 @@ form {
 
 #envoyer {
   display: flex;
-<<<<<<< HEAD
   align-self: center;
-=======
-  flex-direction: column;
+  justify-content: center;
+  width: 10%;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+input, textarea {
+  padding: 2%;
+}
+
+.sexe {
+  display: flex;
+  align-items: center;
+}
+
+.sexe p {
+  display: flex;
+  justify-content: baseline;
+  margin-right: 15%;
+}
+
+.genre {
+  display: flex;
+}
+
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
@@ -36,99 +51,9 @@ form {
 
 .imgNav {
   width: 150px;
-=======
-body {
-  background-color: aqua;
-}
-
->>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-}
-
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
-}
-
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
-}
-
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-<<<<<<< HEAD
-.menu {
-=======
-a {
-  text-decoration: none;
-}
-
-legend {
-  display: flex;
->>>>>>> 6cac540e8ca7a1f2ea12ea87db3d7ce11338a397
-  justify-content: center;
-  width: 10%;
-}
-
-<<<<<<< HEAD
-input, textarea {
-  padding: 2%;
-}
-
-.main.t {
-  width: 100%;
-  background: linear-gradient(to top, rgba 0, 0, 0, 0.5 50%, rgba(0, 0, 0, 0.5) 50%);
-  background-position: center;
-  background-size: cover;
-  height: 109vh;
-}
-
-.nav.t {
-  width: 1200px;
-  height: 75px;
-  margin: auto;
-}
-
-.icon.t {
-  width: 200px;
-  float: left;
-  height: 70px;
-}
-
-.logo.t {
-  font-size: 35px;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-}
-
-.menu {
-=======
-<<<<<<< HEAD
-=======
-.container-grand {
-  width: 100%;
-=======
->>>>>>> c27a0728498d519b931d77fd188a114f932223a8
->>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
 }
 
 .menu-t {
->>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
->>>>>>> 6cac540e8ca7a1f2ea12ea87db3d7ce11338a397
   width: 400px;
   float: left;
   height: 70px;
@@ -150,22 +75,6 @@ input, textarea {
   font-size: 14px;
 }
 
-<<<<<<< HEAD
-fieldset {
-  display: flex;
-  flex-direction: column;
-  padding: 5% 10% 50% 10%;
-}
-
-h1 .legend {
-  display: flex;
-  align-items: center;
-}
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .menu-t ul li a {
   text-decoration: none;
   color: #000000;
@@ -214,20 +123,17 @@ h1 .legend {
   transition: 0.2s ease-in-out;
 }
 
->>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
-legend {
+fieldset {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 5% 10% 50% 10%;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f072353ee248f30e45f565890a68da67a8561bf8
->>>>>>> 16e9f2a8387691ad374471a2a20554d8040433d7
->>>>>>> ca0d7e4e478d707884bcc4c9c25159702d749710
->>>>>>> 9a14078f75e84b9df77511662b0062524c77f201
->>>>>>> 6cac540e8ca7a1f2ea12ea87db3d7ce11338a397
+h1 .legend {
+  display: flex;
+  align-items: center;
+}
+
 .container-un {
   display: flex;
 }
