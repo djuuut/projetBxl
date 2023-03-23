@@ -28,7 +28,11 @@ input, textarea {
 
 .sexe {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
+=======
+  flex-direction: column;
+>>>>>>> 28fb8f79275aef4fa3bb01a6d5f4df532c8fce63
 }
 
 .sexe p {
@@ -39,6 +43,7 @@ input, textarea {
 
 .genre {
   display: flex;
+  flex-direction: column;
 }
 
 .navbar-t {

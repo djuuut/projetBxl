@@ -22,7 +22,8 @@ input, textarea {
 
 .sexe {
     display: flex;
-    align-items: center;
+    // align-items: center;
+    flex-direction: column;
 }
 
 .sexe p {
@@ -33,5 +34,6 @@ input, textarea {
 
 .genre {
     display: flex;
+    flex-direction: column;
     
 }
