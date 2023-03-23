@@ -9,6 +9,12 @@ form {
     width: 50%;
 }
 
+input, textarea {
+    padding: 2%;
+    background-color: transparent;
+}
+
+
 #envoyer {
     display: flex;
     align-self: center;
@@ -19,11 +25,6 @@ form {
 }
 
 #envoyer:hover {
-}
-
-input, textarea {
-    padding: 2%;
-    background-color: transparent;
 }
 
 .sexe {
