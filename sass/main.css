@@ -19,11 +19,14 @@ form {
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 10%;
+  width: 25%;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 input, textarea {
   padding: 2%;
+  background-color: transparent;
 }
 
 .sexe {
@@ -42,22 +45,26 @@ input, textarea {
   flex-direction: column;
 }
 
+.codeVille {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodyContact {
+  background-color: #ffffff;
+}
+
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
   align-items: center;
   background-color: #ffffff;
+  padding-left: 30px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.138);
 }
 
 .imgNav {
-  width: 200px;
-}
-
-.menu-t {
-  width: 400px;
-  float: left;
-  height: 70px;
-  justify-content: space-around;
+  width: 150px;
 }
 
 .menu-t ul {
@@ -70,9 +77,9 @@ input, textarea {
 
 .menu-t ul li {
   list-style: none;
-  margin-left: 45%;
-  margin-top: 5%;
-  font-size: 14px;
+  margin-left: 23%;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .menu-t ul li a {
@@ -88,32 +95,48 @@ input, textarea {
 
 .btnn2 button {
   padding: 13px 20px;
-  border-radius: 10%;
-  background-color: #000000;
+  border-radius: 15px;
+  background-color: rgb(40, 40, 40);
   color: #ffffff;
   margin-right: 2%;
+  box-shadow: 0 2px #000000;
+  position: relative;
 }
 
 .btnn2 button:hover {
-  background-color: rgba(217, 217, 217, 0.8509803922);
-  color: #000000;
+  background-color: rgb(40, 40, 40);
+  color: #ffffff;
   transition: 0.2s ease-in-out;
+  box-shadow: 0 1px;
+  top: 2px;
 }
 
 .srch-t {
-  width: 150px;
-  padding: 2%;
+  width: 140px;
+  padding: 8px;
   border-radius: 8%;
   background: transparent;
-  border: 2% solid;
+  border-radius: 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1%;
+  outline: 0;
 }
 
 .search-t button {
   padding: 2%;
   width: 30%;
-  border-radius: 8%;
+  border-radius: 8px;
   background-color: #000000;
   color: #ffffff;
+  font-size: 15px;
+  background: rgb(40, 40, 40);
+  outline: none;
+  position: relative;
+  box-shadow: 0 3px #000000;
+  font-size: 13px;
+  margin-top: 1px;
 }
 
 input .srch-t {
@@ -125,20 +148,25 @@ input .srch-t {
 }
 
 .search-t button:hover {
-  background-color: rgba(217, 217, 217, 0.8509803922);
-  color: #000000;
-  transition: 0.2s ease-in-out;
+  background-color: rgb(40, 40, 40);
+  color: #ffffff;
+  box-shadow: 0 3px;
+  top: 1px;
 }
 
 fieldset {
   display: flex;
   flex-direction: column;
-  padding: 5% 10% 50% 10%;
+  padding: 10% 10% 10% 10%;
+  border-radius: 2%;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.2);
 }
 
-h1 .legend {
+legend {
   display: flex;
-  align-items: center;
+  font-size: 300%;
 }
 
 .container-un {
@@ -194,4 +222,16 @@ p {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-}/*# sourceMappingURL=main.css.map */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Partie HEADER */
+.box1-t {
+  margin-top: 300px;
+}
+
+/* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */
