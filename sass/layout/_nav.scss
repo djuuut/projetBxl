@@ -5,20 +5,15 @@
     grid-template-columns: 20% 40% 20% 20%;
     align-items: center;
     background-color: $color-white;
+    padding-left: 30px;
+    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.138);
 }
 
 
 
 .imgNav {
-    width: 200px;
-}
-
-.menu-t {
-    width: 400px;
-    float: left;
-    height: 70px;
-    justify-content: space-around;
-
+    width: 150px;
+    
 }
 
 .menu-t ul {
@@ -31,9 +26,9 @@
 
 .menu-t ul li {
     list-style: none;
-    margin-left: 45%;
-    margin-top: 5%;
-    font-size: 14px;
+    margin-left: 23%;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .menu-t ul li a {
@@ -50,34 +45,50 @@
 
 .btnn2 button {
     padding: 13px 20px;
-    border-radius: 10%;
-    background-color: $color-black;
+    border-radius: 15px;
+    background-color: rgb(40, 40, 40);
     color: $color-white;
     margin-right: 2%;
+    box-shadow: 0 2px $color-black;
+    position:relative;
 }
 
 .btnn2 button:hover {
-    background-color: #D9D9D9D9;
-    color: $color-black;
+    background-color: rgb(40, 40, 40);
+    color: $color-white;
     transition: 0.2s ease-in-out;
+    box-shadow: 0 1px;
+    top: 2px;
 }
 
 
 .srch-t {
-    width: 150px;
-    padding: 2%;
+    width: 140px;
+    padding: 8px;
     border-radius: 8%;
     background: transparent;
-    border: 2% solid;
-
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1%;
+    outline: 0;
+    
 }
 
 .search-t button {
     padding: 2%;
     width: 30%;
-    border-radius: 8%;
+    border-radius: 8px;
     background-color: $color-black;
     color: $color-white;
+    font-size: 15px;
+    background: rgb(40, 40, 40);
+    outline: none;
+    position:relative;
+    box-shadow: 0 3px $color-black;
+    font-size: 13px;
+    margin-top: 1px;
 }
 
 input .srch-t {
@@ -86,11 +97,12 @@ input .srch-t {
     font-size: 20px;
     outline: none;
     color: $color-black;
-
 }
 
 .search-t button:hover {
-    background-color: #D9D9D9D9;
-    color: $color-black;
-    transition: 0.2s ease-in-out;
+    background-color:rgb(40, 40, 40);
+    color: $color-white;
+    box-shadow: 0 3px;
+    top: 1px;
 }
+
