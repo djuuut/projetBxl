@@ -19,11 +19,14 @@ form {
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 10%;
+  width: 25%;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 input, textarea {
   padding: 2%;
+  background-color: transparent;
 }
 
 .sexe {
@@ -40,6 +43,15 @@ input, textarea {
 .genre {
   display: flex;
   flex-direction: column;
+}
+
+.codeVille {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodyContact {
+  background-color: #ffffff;
 }
 
 .navbar-t {
@@ -133,12 +145,16 @@ input .srch-t {
 fieldset {
   display: flex;
   flex-direction: column;
-  padding: 5% 10% 50% 10%;
+  padding: 10% 10% 10% 10%;
+  border-radius: 2%;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.2);
 }
 
-h1 .legend {
+legend {
   display: flex;
-  align-items: center;
+  font-size: 300%;
 }
 
 .container-un {

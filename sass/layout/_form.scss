@@ -13,11 +13,17 @@ form {
     display: flex;
     align-self: center;
     justify-content: center;
-    width: 10%;
+    width: 25%;
+    background-color: $color-black;
+    color: $color-white;
+}
+
+#envoyer:hover {
 }
 
 input, textarea {
     padding: 2%;
+    background-color: transparent;
 }
 
 .sexe {
@@ -36,4 +42,13 @@ input, textarea {
     display: flex;
     flex-direction: column;
     
+}
+
+.codeVille {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyContact {
+    background-color: $color-white;
 }

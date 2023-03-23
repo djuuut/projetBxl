@@ -3,10 +3,14 @@
 fieldset {
     display: flex;
     flex-direction: column;
-    padding: 5% 10% 50% 10%;
+    padding: 10% 10% 10% 10%;
+    border-radius: 2%;
+    border-color: $color-white;
+    background-color: $color-white;
+    box-shadow: 0px 50px 50px  rgba(0, 0, 0, 0.200);
 }
 
-h1 .legend {
+legend {
     display: flex;
-    align-items: center;
+    font-size: 300%;
 }
