@@ -224,14 +224,42 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+/* Partie HEADER */
+.imgdebxl-t img {
+  width: 100%;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
 }
 
-/* Partie HEADER */
 .box1-t {
-  margin-top: 300px;
+  margin-top: 430px;
+  margin-left: 180px;
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  color: #ffffff;
+}
+
+.button-t2x button {
+  padding: 20px 70px;
+  margin-left: 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  background-color: #ffffff;
+  opacity: 60%;
+  margin-right: 2%;
+  box-shadow: 0 2px #000000;
+  position: relative;
+}
+
+.button-t2x button:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 1px;
+  top: 2px;
+  background-color: #ffffff;
+  opacity: 80%;
+  position: relative;
 }
 
 /* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */
