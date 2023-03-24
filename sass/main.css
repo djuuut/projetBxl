@@ -229,6 +229,7 @@ h1 {
   width: 100%;
   filter: brightness(70%);
   -webkit-filter: brightness(70%);
+  align-items: center;
 }
 
 .box1-t {
@@ -239,11 +240,15 @@ h1 {
   position: absolute;
   top: 0px;
   color: #ffffff;
+  text-align: center;
+}
+
+.bvn-t {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .button-t2x button {
   padding: 20px 70px;
-  margin-left: 20px;
   border-radius: 30px;
   font-size: 15px;
   background-color: #ffffff;
@@ -258,8 +263,71 @@ h1 {
   box-shadow: 0 1px;
   top: 2px;
   background-color: #ffffff;
-  opacity: 80%;
-  position: relative;
+  opacity: 70%;
+}
+
+.titrenumdeux-t {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  text-decoration: underline;
+}
+
+.box2-t {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.imgpisseur-t img {
+  width: 350px;
+  height: 460px;
+  border-radius: 70px;
+  filter: brightness(70%);
+  -webkit-filter: brightness(80%);
+  box-shadow: 0 3px 15px;
+}
+
+.imgpisseur-t img:hover {
+  transform: translateY(20px);
+  transition: 0.5s all;
+}
+
+.txt1-t {
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.archeimg-t img {
+  width: 550px;
+  height: 460px;
+  border-radius: 70px;
+  box-shadow: 0 3px 15px;
+}
+
+.box3-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.txt2-t {
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.archeimg-t img:hover {
+  transform: translateY(20px);
+  transition: 0.5s all;
 }
 
 /* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */
