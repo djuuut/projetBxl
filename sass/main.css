@@ -1,3 +1,7 @@
+body {
+  background-color: #222222;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Cinzel", serif;
 }
@@ -12,22 +16,19 @@ p {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5% 5% 5%;
+  margin-top: 10%;
+  border-radius: 2%;
+  background-color: #222222;
   width: 50%;
+  box-shadow: 0px 0px 50px rgb(255, 255, 255);
 }
 
 input, textarea {
   padding: 2%;
   background-color: transparent;
-  border-color: #000000;
-}
-
-#envoyer {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 25%;
-  background-color: #000000;
-  color: #ffffff;
 }
 
 .sexe {
@@ -37,31 +38,30 @@ input, textarea {
 
 .sexe p {
   display: flex;
-  justify-content: baseline;
   margin-right: 15%;
+  color: #D9D9D9;
+  opacity: 50%;
 }
 
 .genre {
   display: flex;
   flex-direction: column;
-}
-
-.codeVille input {
-  display: flex;
-  justify-content: space-between;
+  color: #D9D9D9;
+  opacity: 50%;
 }
 
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #1B1B1B;
   padding-left: 30px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.138);
+  box-shadow: 0px 10px 10px rgb(0, 0, 0);
 }
 
 .imgNav {
   width: 150px;
+  filter: invert(100%);
 }
 
 .menu-t ul {
@@ -81,7 +81,7 @@ input, textarea {
 
 .menu-t ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #D9D9D9;
   font-weight: bold;
   transition: 0.2s ease-in-out;
 }
@@ -151,20 +151,48 @@ input .srch-t {
   top: 1px;
 }
 
-fieldset {
+#envoyer {
   display: flex;
-  flex-direction: column;
-  padding: 10% 10% 10% 10%;
-  margin-top: 10%;
-  border-radius: 2%;
-  border-color: #000000;
-  background-color: #ffffff;
-  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.2);
+  align-self: center;
+  justify-content: center;
+  width: 25%;
+  background-color: #D9D9D9;
+  color: #000000;
 }
 
-legend {
+h1 {
   display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
   font-size: 300%;
+  background-color: #222222;
+  color: #D9D9D9;
+}
+
+.illustration img {
+  color: white;
+  filter: invert(100%);
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.reseaux {
+  display: flex;
+  align-items: center;
+  filter: invert(100%);
+}
+
+.reseaux img {
+  margin-top: 50%;
+  width: 20%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #D9D9D9;
 }
 
 .container-grand {
@@ -304,6 +332,7 @@ a:hover {
   width: 100%;
   filter: brightness(70%);
   -webkit-filter: brightness(70%);
+  align-items: center;
 }
 
 .box1-t {
@@ -314,11 +343,15 @@ a:hover {
   position: absolute;
   top: 0px;
   color: #ffffff;
+  text-align: center;
+}
+
+.bvn-t {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .button-t2x button {
   padding: 20px 70px;
-  margin-left: 20px;
   border-radius: 30px;
   font-size: 15px;
   background-color: #ffffff;
@@ -333,8 +366,71 @@ a:hover {
   box-shadow: 0 1px;
   top: 2px;
   background-color: #ffffff;
-  opacity: 80%;
-  position: relative;
+  opacity: 70%;
+}
+
+.titrenumdeux-t {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  text-decoration: underline;
+}
+
+.box2-t {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.imgpisseur-t img {
+  width: 350px;
+  height: 460px;
+  border-radius: 70px;
+  filter: brightness(70%);
+  -webkit-filter: brightness(80%);
+  box-shadow: 0 3px 15px;
+}
+
+.imgpisseur-t img:hover {
+  transform: translateY(20px);
+  transition: 0.5s all;
+}
+
+.txt1-t {
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.archeimg-t img {
+  width: 550px;
+  height: 460px;
+  border-radius: 70px;
+  box-shadow: 0 3px 15px;
+}
+
+.box3-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.txt2-t {
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.archeimg-t img:hover {
+  transform: translateY(20px);
+  transition: 0.5s all;
 }
 
 /* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */
