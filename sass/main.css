@@ -167,19 +167,24 @@ legend {
   font-size: 300%;
 }
 
+.container-grand {
+  justify-content: center;
+  align-items: center;
+}
+
 .container-un {
   display: flex;
 }
 .container-un .casino {
   width: 850px;
   height: 650px;
-  padding-left: 250px;
+  padding-left: 150px;
   padding-bottom: 100px;
   padding-top: 50px;
 }
 .container-un .titre-paragraphe {
   padding-left: 150px;
-  padding-top: 250px;
+  padding-top: 50px;
   padding-right: 150px;
 }
 
@@ -187,30 +192,34 @@ legend {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 .container-deux .palaisr {
   width: 850px;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 .container-deux .texte-deux {
-  padding-left: 250px;
+  padding-right: 300px;
   align-self: center;
+  align-items: center;
+  padding-bottom: 300px;
 }
 
 .container-trois {
   display: flex;
   padding-right: 150px;
+  align-items: center;
 }
 .container-trois .festival {
   width: 850px;
   padding-left: 250px;
+  align-items: center;
 }
 
 .texte-trois {
   padding-left: 150px;
-  padding-top: 200px;
-  justify-content: center;
+  padding-top: 50px;
+  align-content: center;
 }
 
 p {
@@ -220,6 +229,74 @@ p {
 
 h1 {
   font-family: "Montserrat", sans-serif;
+}
+
+.festival {
+  height: 9%;
+}
+
+.texte-deux {
+  align-content: center;
+  align-items: center;
+}
+
+a {
+  color: rgb(24, 22, 170);
+}
+
+a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 1700px) {
+  .event {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container-un {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-deux {
+    flex-wrap: wrap;
+  }
+  img {
+    align-self: center;
+    align-content: center;
+    max-width: 650px;
+    max-height: 450px;
+    padding-top: 150px;
+  }
+}
+.t-un {
+  align-items: center;
+  padding-left: 100px;
+}
+
+.titre-paragraphe {
+  flex-wrap: wrap;
+  max-width: 750px;
+  max-height: 200px;
+  padding-bottom: 450px;
+  padding-right: 200px;
+}
+
+.texte-deux {
+  max-width: 750px;
+  max-height: 200px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.container-trois {
+  flex-wrap: wrap;
+}
+
+.texte-trois {
+  max-width: 550px;
+  max-height: 200px;
+  padding-bottom: 450px;
 }
 
 /* Partie HEADER */
