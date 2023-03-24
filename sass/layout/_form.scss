@@ -12,8 +12,8 @@ form {
 input, textarea {
     padding: 2%;
     background-color: transparent;
+    border-color: $color-black;
 }
-
 
 #envoyer {
     display: flex;
@@ -45,11 +45,7 @@ input, textarea {
     
 }
 
-.codeVille {
+.codeVille input {
     display: flex;
     justify-content: space-between;
-}
-
-.bodyContact {
-    background-color: $color-white;
 }
