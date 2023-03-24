@@ -4,15 +4,16 @@
     display: grid;
     grid-template-columns: 20% 40% 20% 20%;
     align-items: center;
-    background-color: $color-white;
+    background-color: $color-nav;
     padding-left: 30px;
-    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.138);
+    box-shadow: 0px 10px 10px  rgb(0, 0, 0);
 }
 
 
 
 .imgNav {
     width: 150px;
+    filter: invert(100%);
     
 }
 
@@ -33,7 +34,7 @@
 
 .menu-t ul li a {
     text-decoration: none;
-    color: $color-black;
+    color: $color-palegray;
     font-weight: bold;
     transition: 0.2s ease-in-out;
 
