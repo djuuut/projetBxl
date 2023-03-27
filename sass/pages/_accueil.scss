@@ -63,7 +63,7 @@
 
 //SECONDE BOX IMG TXT // 
 
-.box2-t {
+/* .box2-t {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -108,7 +108,7 @@
     height: 460px;
     border-radius: 70px;
     box-shadow: 0 3px 15px;
-}
+} 
 
 //3EME BOX IMG TXT // 
 
@@ -132,7 +132,7 @@
         transform: translateY((20px));
         transition: 0.5s all;
     }
-
+*/
 
     //TEST //
 
@@ -164,14 +164,61 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: crimson;
+        background: transparent;
         clip-path: circle(120px at center);
         transition: 0.5s;
     }
 
-    .card .circle:hover:before {
-        background: darkorchid;
+    .card:hover .circle:before {
+        background-color: $color-description;
         clip-path: circle(400px at center);
     }
 
+    .card img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 300px;
+        //passage du curseur activé//
+        pointer-events: none;
+        transition: 0.5s;
+        filter: invert(90%);
+
+    }
+
+    .card:hover img {
+        left: 72%;
+        height: 400px;  
+    }
+
+
+    .card .content-t {
+        position:relative;
+        width: 50%;
+        left: 20%;
+        padding: 20px 20px 20px 40px;  
+        transition: 0.5s;  
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .card:hover .content-t {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    
+    }
+
+    .card .content-t h2 {
+         color: $color-gold;
+         text-transform: uppercase;
+         font-size: 2em;
+         line-height: 1em;
+         margin-bottom: 5px;
+    }
+
+    .card .content-t p {
+        color: $color-palegray ;
+    }
 /* FIN Partie HEADER */
