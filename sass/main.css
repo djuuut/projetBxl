@@ -308,13 +308,13 @@ a:hover {
   .container-deux {
     flex-wrap: wrap;
   }
-  img {
-    align-self: center;
-    align-content: center;
-    max-width: 650px;
-    max-height: 450px;
-    padding-top: 150px;
-  }
+  /*img {
+      align-self: center;
+      align-content: center;
+      max-width: 650px;
+      max-height: 450px;
+      padding-top: 150px;
+  }*/
 }
 .t-un {
   align-items: center;
@@ -470,8 +470,8 @@ a:hover {
     }
 */
 .card {
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 3%;
+  margin-top: 4%;
   position: relative;
   width: 600px;
   height: 350px;
