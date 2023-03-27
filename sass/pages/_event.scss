@@ -29,7 +29,7 @@
     flex-direction: row-reverse;
     text-align: center;
     padding-right: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     justify-content: center;
     padding-top: 200px;
     
@@ -75,16 +75,17 @@
    align-items: flex-start;
 
 }
+h1{
+    color: white;
+}
 
 p {
     line-height: 35px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.5em;
+    width: 1000px;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .festival {
     height: 8%;
@@ -94,7 +95,7 @@ h1 {
     align-items: center;
 }
 a{
-    color: rgb(24, 22, 170);
+    color:$color-gold;
 }
 a:hover{
     color:rgb(219, 198, 10)
@@ -199,7 +200,7 @@ img .casino .palaisr .festival {
 
   }
   .container-deux{
-    // padding: 0;
+    padding-bottom: 0;
     width:100%;
     margin-top: 35px;
    
@@ -211,12 +212,7 @@ img .casino .palaisr .festival {
 
   }
   
-  
-  
-  
-   
- 
-   }
+  }
 
 
 
