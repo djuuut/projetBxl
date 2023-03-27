@@ -59,6 +59,11 @@ input, textarea {
   opacity: 50%;
 }
 
+.codeVille {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar-t {
   display: grid;
   grid-template-columns: 20% 40% 20% 20%;
