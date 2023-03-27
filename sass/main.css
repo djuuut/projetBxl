@@ -34,6 +34,14 @@ form {
   width: 40%;
   box-shadow: 0px 0px 50px rgb(255, 255, 255);
 }
+@media screen and (max-width: 799px) {
+  form {
+    margin-left: 62%;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
 
 input, textarea {
   padding: 2%;
@@ -183,14 +191,20 @@ input .srch-t {
 
 .reseaux {
   display: flex;
-  align-items: center;
   filter: invert(100%);
 }
 
 .reseaux img {
   margin-top: 50%;
-  margin-left: 52%;
-  width: 10%;
+  margin-left: 40%;
+  width: 15%;
+}
+@media screen and (max-width: 799px) {
+  .reseaux img {
+    display: flex;
+    margin-left: 165%;
+    width: 55%;
+  }
 }
 
 footer {
@@ -490,7 +504,7 @@ a:hover {
 }
 
 .card:hover .circle:before {
-  background-color: rgb(22, 22, 22);
+  background-color: #161616;
   -webkit-clip-path: circle(400px at center);
           clip-path: circle(400px at center);
 }
