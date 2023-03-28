@@ -1,16 +1,9 @@
 // page de Julien ! Ne pas toucher sans l'ordre du propriétaire
 
-.footer1 {
+footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    filter: invert(100%);
 }
 
 .reseaux {
@@ -21,14 +14,12 @@
 }
 
 .reseaux img {
+    filter: invert(100%);
     width: 15%;
 }
 
-.illustrtion img {
+.illustration img {
     filter: invert(100%);
+    width: 80%;
 }    
 
-footer {
-    display: flex;
-    justify-content: center;
-}
