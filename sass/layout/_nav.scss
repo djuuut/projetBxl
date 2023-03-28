@@ -1,5 +1,6 @@
 // page de Tiph ! Ne pas toucher sans l'ordre de la propriétaire
 
+<<<<<<< HEAD
 #navbarbxl {
 
         display: grid;
@@ -10,6 +11,16 @@
         box-shadow: 0px 10px 10px rgb(0, 0, 0);
         padding-top: 1%;
         padding-bottom: 1%;
+=======
+.navbar-t {
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+    align-items: center;
+    background-color: $color-nav;
+    padding-left: 30px;
+    box-shadow: 0px 5px 25px  $color-gold;
+}
+>>>>>>> c2e6aa3a15f8898d65567953eeffe3ea4207ddd3
 
 
 

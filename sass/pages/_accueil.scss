@@ -64,13 +64,90 @@
 
 }
 
+<<<<<<< HEAD
 
     
     //description effet// 
+=======
+//SECONDE BOX IMG TXT // 
+
+/* .box2-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    justify-content: space-evenly;
+} 
+
+// PHOTO 1 // 
+
+.imgpisseur-t img {
+    width: 350px;
+    height: 460px;
+    border-radius: 70px;
+    filter: brightness(70%);
+    -webkit-filter: brightness(80%);
+    box-shadow: 0 3px 15px;
+
+    
+}
+
+.imgpisseur-t img:hover {
+    transform: translateY((20px));
+    transition: 0.5s all;
+    margin-right: 180px
+;
+
+   
+
+}
+
+
+.txt1-t {
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: $color-palegray;
+}
+
+
+.archeimg-t img {
+    width: 550px;
+    height: 460px;
+    border-radius: 70px;
+    box-shadow: 0 3px 15px;
+} 
+
+//3EME BOX IMG TXT // 
+
+.box3-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.txt2-t { 
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: $color-palegray;
+}
+
+.archeimg-t img:hover {
+        transform: translateY((20px));
+        transition: 0.5s all;
+    }
+*/
+
+    //TEST //
+>>>>>>> c2e6aa3a15f8898d65567953eeffe3ea4207ddd3
 
     .card {
-        margin-left: 3%;
-        margin-top: 4%;
+        margin-left: 5%;
+        margin-top: 5%;
         position: relative;
         width: 600px;
         height: 350px;
@@ -155,7 +232,10 @@
     .card .content-t p {
         color: $color-palegray ;
     }
+<<<<<<< HEAD
     
 }
 
+=======
+>>>>>>> c2e6aa3a15f8898d65567953eeffe3ea4207ddd3
 /* FIN Partie HEADER */
