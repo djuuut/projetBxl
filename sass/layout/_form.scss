@@ -13,13 +13,13 @@ form {
     border-radius: 2%;
     background-color: $color-nav;
     width: 50%;
-    box-shadow: 0px 0px 40px  $color-black;
+    box-shadow: 0px 0px 40px  $color-gold;
 
-    @media screen and (max-width: 799px) 
-    {margin-left: 62%;
-    width: 100%;
-padding-left: 30%;
-padding-right: 30%;}
+        @media screen and (max-width: 799px) 
+        {margin-left: 62%;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;}
 }
 
 
@@ -33,41 +33,51 @@ padding-right: 30%;}
 
 
 input, textarea {
-
-    width: 100%;
-    // padding-bottom: 5%;
-    // padding-top: 5%;
+    padding-bottom: 5%;
     margin-bottom: 5%;
-    // background-color: transparent;
-    // color: $color-palegray;
-    // border-color: $color-palegray;
-    // font-size: 150%;
+    background-color: transparent;
+    color: $color-palegray;
+    font-size: 150%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
 }
 
+.envoyer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#envoyer {
+    padding: 1% 15% 1% 15%;
+}
+
+#envoyer:hover {
+    opacity: 50%;
+}
 
 .sexe {
     display: flex;
     flex-direction: column;
 }
 
-.sexe p {
-    display: flex;
-    margin-right: 15%;
-    color: #D9D9D9;
-    opacity: 50%;
-}
-
 .genre {
     display: flex;
     flex-direction: column;
-    color: #D9D9D9;
+    color: $color-palegray;
     opacity: 50%;
     font-size: 150%;
-    
+}
+
+.sexe p {
+    font-size: 150%;
+    color: #D9D9D9;
+    opacity: 50%;
 }
 
 .codeVille {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
 }
