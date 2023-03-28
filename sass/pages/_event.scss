@@ -31,7 +31,7 @@
     padding-right: 100px;
     padding-bottom: 350px;
     justify-content: center;
-    padding-top: 200px;
+    
     
     .container-deux .texte-deux{
        display: flex;
@@ -57,13 +57,14 @@
 
 .container-trois {
     display: flex;
-    padding-right: 100px;
+    
+   
  
    
 
     .festival {
-        width:40%;
-        height: 50%;
+       
+       
         padding-left: 50px;
         align-items: center;
     }
@@ -71,7 +72,7 @@
 }
 
 .texte-trois {
-    padding-left: 150px;
+    padding-left: 100px;
    align-items: flex-start;
 
 }
@@ -79,10 +80,10 @@ h1{
     color: white;
 }
 
-p {
+.casinobx .lumiere .royal {
     line-height: 35px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     width: 1000px;
 }
 
@@ -100,7 +101,7 @@ a{
 a:hover{
     color:rgb(219, 198, 10)
 }
-p{
+.casinobx .royal .lumiere{
     color:#d9c38b ;
 }
 fieldset{
@@ -192,26 +193,17 @@ img {
    img .casino .palaisr .festival {
     width: 100%;
     // height: 350px;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .texte-deux fieldset{
     width:300px;
-
-  }
+}
   .container-deux{
     padding-bottom: 0;
     width:100%;
     margin-top: 35px;
-   
-    
-  }
-  .container-trois .festival{
-    width: 100%;
-   
-
-  }
-  
-  }
+   }
+}
 
 
 

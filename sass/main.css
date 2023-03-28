@@ -241,7 +241,6 @@ form {
   padding-right: 100px;
   padding-bottom: 350px;
   justify-content: center;
-  padding-top: 200px;
 }
 .container-deux .container-deux .texte-deux {
   display: flex;
@@ -259,17 +258,14 @@ form {
 
 .container-trois {
   display: flex;
-  padding-right: 100px;
 }
 .container-trois .festival {
-  width: 40%;
-  height: 50%;
   padding-left: 50px;
   align-items: center;
 }
 
 .texte-trois {
-  padding-left: 150px;
+  padding-left: 100px;
   align-items: flex-start;
 }
 
@@ -277,10 +273,10 @@ h1 {
   color: white;
 }
 
-p {
+.casinobx .lumiere .royal {
   line-height: 35px;
   font-family: "Quicksand", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   width: 1000px;
 }
 
@@ -301,7 +297,7 @@ a:hover {
   color: rgb(219, 198, 10);
 }
 
-p {
+.casinobx .royal .lumiere {
   color: #d9c38b;
 }
 
@@ -378,7 +374,7 @@ fieldset {
   }
   img .casino .palaisr .festival {
     width: 100%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .texte-deux fieldset {
     width: 300px;
@@ -387,9 +383,6 @@ fieldset {
     padding-bottom: 0;
     width: 100%;
     margin-top: 35px;
-  }
-  .container-trois .festival {
-    width: 100%;
   }
 }
 /* Partie HEADER */
@@ -512,16 +505,15 @@ fieldset {
   color: #D9D9D9;
 }
 #accueil-t .card {
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 3%;
+  margin-top: 4%;
   position: relative;
   width: 600px;
   height: 350px;
-  border-radius: 20px;
   display: flex;
   align-items: center;
   border-radius: 20px;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
 }
 #accueil-t .card .circle {
   position: absolute;
@@ -541,7 +533,7 @@ fieldset {
   height: 100%;
   background: #161616;
   -webkit-clip-path: circle(120px at center);
-          clip-path: circle(120px at center);
+  clip-path: circle(120px at center);
   transition: 0.5s;
 }
 #accueil-t .card:hover .circle:before {
@@ -586,6 +578,7 @@ fieldset {
 }
 #accueil-t .card .content-t p {
   color: #D9D9D9;
+  font-size: 100%;
 }
 
 /* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */
