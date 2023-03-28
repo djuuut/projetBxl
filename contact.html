@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/sass/main.css">
@@ -18,9 +18,11 @@
 
 </head>
 
-<body class="bodyContact">
+<body id="accueil-t">
 
-    <div class="navbar-t">
+    <!-- NAVBAR -->
+
+    <div id="navbarbxl" class="navbar-t">
 
         <div class="logo-t">
 
@@ -42,7 +44,7 @@
         </div>
 
         <div class="search-t">
-            
+
             <input class="srch-t" type="search" name="x" placeholder="Rechercher.. ">
             <a href="#"> <button class="=btn-t"> Recherche </button></a>
 
@@ -57,124 +59,130 @@
 
     </div>
 
-    <div class="form">
-        
-            <form>
+    <!-- FIN de la NAVBAR -->
 
-                <fieldset>
 
-                    <legend>Restons en contact !</legend>
+    <!-- HEADER -->
+    <header>
 
-                        <label for="prenom"></label>
+    <div class="formJ">
 
-                            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+        <form>
 
-                            <br>
+            <h1>Restons en contact !</h1>
 
-                        <label for="nom"></label>
+                <label for="prenom"></label>
 
-                            <input type="text" name="nom" id="nom" placeholder="Votre nom">
+                    <input class="inputJ" type="text" name="prenom" id="prenom" placeholder="Votre prénom">
 
-                            <br>
+                <br>
 
-                        <label for="age"></label>
+                <label for="nom"></label>
 
-                            <input type="number" name="age" id="age" placeholder="Votre âge">
+                <input class="inputJ" type="text" name="nom" id="nom" placeholder="Votre nom">
 
-                            <br>
+                <br>
 
-                            <div class="sexe">  
+                <label for="age"></label>
 
-                                <p>Sexe</p>
+                <input class="inputJ" type="number" name="age" id="age" placeholder="Votre âge">
 
-                                    <br>
+                <br>
 
-                                        <div class="genre">
+            <div class="sexe">
 
-                                            <div class="homme">
+                    <p>Sexe</p>
 
-                                                <input type="radio" name="homme" id="homme">
+                    <br>
 
-                                                <label for="homme">Homme</label>
+                <div class="genre">
 
-                                            </div>
+                    <div class="homme">
 
-                                            <br>
+                        <input class="inputJ" type="radio" name="homme" id="homme">
 
-                                            <div class="femme">
+                        <label for="homme">Homme</label>
 
-                                                <input type="radio" name="femme" id="femme">
+                    </div>
 
-                                                <label for="femme">Femme</label>    
-                            
-                                            </div>
+                    <br>
 
-                                            <br>
+                    <div class="femme">
 
-                                        </div>
-                            
-                            </div>  
+                        <input class="inputJ" type="radio" name="femme" id="femme">
 
-                            <br>
+                        <label for="femme">Femme</label>
 
-                        <label for="e-mail"></label>
+                    </div>
 
-                            <input type="email" name="e-mail" id="e-mail" placeholder="Votre-mail@gmail.com">
+                    <br>
 
-                            <br>
+                </div>
 
-                        <label for="tel"></label>
+            </div>
 
-                            <input type="tel" name="tel" id="tel" placeholder="Votre numéro de GSM">
+            <br>
 
-                            <br>
+                <label for="e-mail"></label>
 
-                        <label for="adresse"></label>
+                <input class="inputJ" type="email" name="e-mail" id="e-mail" placeholder="Votre-mail@gmail.com">
 
-                            <input type="text" name="adresse" id="adresse" placeholder="Votre adresse">
+                <br>
 
-                            <br>
+                <label for="tel"></label>
 
-                            <div class="codeVille">
+                <input class="inputJ" type="tel" name="tel" id="tel" placeholder="Votre numéro de GSM">
 
-                                <div class="ville">
+                <br>
 
-                                    <label for="ville"></label>
+                <label for="adresse"></label>
 
-                                        <input type="text" name="ville" id="ville" placeholder="Ville">
+                <input class="inputJ" type="text" name="adresse" id="adresse" placeholder="Votre adresse">
 
-                                </div>
+                <br>
 
-                                <div class="codePostal">
+            <div class="codeVille">
 
-                                    <label for="codePostal"></label>
+                <div class="ville">
 
-                                        <input type="text" name="codePostal" id="codePostal" placeholder="Code postal">
+                    <label for="ville"></label>
 
-                                </div>
+                    <input class="inputJ" type="text" name="ville" id="ville" placeholder="Ville">
 
-                            </div>
+                </div>
 
-                            <br>
+                <div class="codePostal">
 
-                        <label for="message"></label>
+                    <label for="codePostal"></label>
 
-                            <textarea type="message" name="message" id="message" placeholder="Un petit message à nous transmettre ?"></textarea>
+                    <input class="inputJ" type="text" name="codePostal" id="codePostal" placeholder="Code postal">
 
-                            <br>
+                </div>
 
-                        <label for="envoyer"></label>
+            </div>
 
-                            <input type="submit" name="envoyer" id="envoyer" value="ENVOYER">
+            <br>
 
-                            <br>
+                <label for="message"></label>
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80598.6358716471!2d4.305205824773782!3d50.8551029381426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2sBruxelles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1679567534542!5m2!1sfr!2sfr" width="100%" height="500" style="-webkit-filter: grayscale(100%);
-                            filter: grayscale(100%);" border:0; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <textarea class="textareaJ" type="message" name="message" id="message" placeholder="Un petit message à nous transmettre ?"></textarea>
 
-                </fieldset>
+                <br>
 
-            </form>
+                <div class="envoyerJ">
+
+                    <label for="envoyer"></label>
+
+                    <input class="inputJ" type="submit" name="envoyer" id="envoyerJ" value="ENVOYER">
+                        
+                    <br>
+                
+                </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80598.6358716471!2d4.305205824773782!3d50.8551029381426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2sBruxelles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1679567534542!5m2!1sfr!2sfr" width="100%" height="500" style="-webkit-filter: grayscale(100%); filter: grayscale(100%);" border:0; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </form>
 
     </div>
 

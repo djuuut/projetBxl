@@ -1,17 +1,4 @@
 //  page de Julien ! Ne pas toucher sans l'ordre du propriétaire
+    // @media screen and (max-width: 799px) 
+    // {padding-right: 25%;}
 
-fieldset {
-    display: flex;
-    flex-direction: column;
-    padding: 10% 10% 10% 10%;
-    margin-top: 10%;
-    border-radius: 2%;
-    border-color: $color-black;
-    background-color: $color-white;
-    box-shadow: 0px 50px 50px  rgba(0, 0, 0, 0.200);
-}
-
-legend {
-    display: flex;
-    font-size: 300%;
-}

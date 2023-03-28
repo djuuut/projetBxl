@@ -1,51 +1,85 @@
 // page de Julien ! Ne pas toucher sans l'ordre du propriétaire
 
-.form {
+.formJ {
     display: flex;
     justify-content: center;
 }
 
 form {
-    width: 50%;
-}
-
-input, textarea {
-    padding: 2%;
-    background-color: transparent;
-    border-color: $color-black;
-}
-
-#envoyer {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    width: 25%;
-    background-color: $color-black;
-    color: $color-white;
+    flex-direction: column;
+    padding: 2% 5% 5% 5%;
+    margin-top: 10%;
+    border-radius: 2%;
+    background-color: $color-nav;
+    width: 50%;
+    box-shadow: 0px 0px 40px  $color-gold;
+
+        @media screen and (max-width: 799px) 
+        {margin-left: 62%;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;}
 }
 
-#envoyer:hover {
+
+.formJ h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    font-size: 300%;
+    color: #D9D9D9;
+}
+
+
+.inputJ, .textareaJ {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    color: $color-palegray;
+    font-size: 150%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.envoyerJ {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#envoyerJ {
+    background-color: $color-palegray;
+    color: $color-nav;
+    padding: 1% 15% 1% 15%;
+}
+
+#envoyerJ:hover {
+    box-shadow: 0px 0px 20px  $color-gold;
 }
 
 .sexe {
     display: flex;
-    // align-items: center;
     flex-direction: column;
-}
-
-.sexe p {
-    display: flex;
-    justify-content: baseline;
-    margin-right: 15%;
 }
 
 .genre {
     display: flex;
     flex-direction: column;
-    
+    color: $color-palegray;
+    opacity: 50%;
+    font-size: 150%;
 }
 
-.codeVille input {
+.sexe p {
+    font-size: 150%;
+    color: #D9D9D9;
+    opacity: 50%;
+}
+
+.codeVille {
     display: flex;
     justify-content: space-between;
 }

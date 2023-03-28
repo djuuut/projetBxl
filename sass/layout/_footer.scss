@@ -1,0 +1,25 @@
+// page de Julien ! Ne pas toucher sans l'ordre du propriétaire
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reseaux {
+    display: flex;
+    margin-top: 10%;
+    margin-left:16%;
+    margin-bottom: 5%;
+}
+
+.reseaux img {
+    filter: invert(100%);
+    width: 15%;
+}
+
+.illustration img {
+    filter: invert(100%);
+    width: 80%;
+}    
+
