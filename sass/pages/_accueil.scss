@@ -3,6 +3,9 @@
 
 /* Partie HEADER */
 
+#accueil-t {
+
+
 .imgdebxl-t img {
     width: 100%;
     filter: brightness(70%);
@@ -136,17 +139,9 @@
 
     //TEST //
 
-
-
-  
-    //images mannekenpis// 
-
-    
-    //description effet// 
-
     .card {
-        margin-left: 3%;
-        margin-top: 4%;
+        margin-left: 5%;
+        margin-top: 5%;
         position: relative;
         width: 600px;
         height: 350px;
@@ -231,5 +226,5 @@
     .card .content-t p {
         color: $color-palegray ;
     }
-    
+}
 /* FIN Partie HEADER */

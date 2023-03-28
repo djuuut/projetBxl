@@ -1,1 +1,34 @@
-// page de Fatima ! Ne pas toucher sans l'ordre de la propriétaire
+// page de Julien ! Ne pas toucher sans l'ordre du propriétaire
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    filter: invert(100%);
+}
+
+.reseaux {
+    display: flex;
+    margin-top: 10%;
+    margin-left:16%;
+    margin-bottom: 5%;
+}
+
+.reseaux img {
+    width: 15%;
+}
+
+.illustrtion img {
+    filter: invert(100%);
+}    
+
+footer {
+    display: flex;
+    justify-content: center;
+}

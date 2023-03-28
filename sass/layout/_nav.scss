@@ -1,111 +1,108 @@
 // page de Tiph ! Ne pas toucher sans l'ordre de la propriétaire
 
-.navbar-t {
-    display: grid;
-    grid-template-columns: 20% 40% 20% 20%;
-    align-items: center;
-    background-color: $color-nav;
-    padding-left: 30px;
-    box-shadow: 0px 10px 10px  rgb(0, 0, 0);
+#navbarbxl {
+
+        display: grid;
+        grid-template-columns: 20% 40% 20% 20%;
+        align-items: center;
+        background-color: $color-nav;
+        padding-left: 30px;
+        box-shadow: 0px 10px 10px rgb(0, 0, 0);
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+
+
+    .imgNav {
+        width: 150px;
+        filter: invert(100%);
+
+    }
+
+    .menu-t ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    .menu-t ul li {
+        list-style: none;
+        margin-left: 23%;
+        font-size: 16px;
+        margin-top: 10px;
+
+    }
+
+    .menu-t ul li a {
+        text-decoration: none;
+        color: $color-palegray;
+        font-weight: bold;
+        transition: 0.2s ease-in-out;
+
+    }
+
+    .menu-t ul li a:hover {
+        color: #d9c38b;
+    }
+
+    .btnn2 button {
+        padding: 13px 20px;
+        border-radius: 15px;
+        background-color: rgb(40, 40, 40);
+        color: $color-white;
+        margin-right: 2%;
+        box-shadow: 0 2px $color-black;
+        position: relative;
+    }
+
+    .btnn2 button:hover {
+        background-color: rgb(40, 40, 40);
+        color: #d9c38b;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 1px;
+        top: 2px;
+    }
+
+
+    .srch-t {
+        width: 140px;
+        padding: 8px;
+        border-radius: 8%;
+        margin-bottom: 0;
+        background: transparent;
+        border-radius: 2px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 1%;
+        outline: 0;
+
+    }
+
+    .search-t button {
+        padding: 2%;
+        width: 30%;
+        border-radius: 8px;
+        background-color: $color-black;
+        color: $color-white;
+        font-size: 15px;
+        background: rgb(40, 40, 40);
+        outline: none;
+        position: relative;
+        box-shadow: 0 3px $color-black;
+        font-size: 13px;
+        margin-top: 1px;
+    }
+
+
+    .search-t button:hover {
+        background-color: rgb(40, 40, 40);
+        color: #d9c38b;
+        box-shadow: 0 1px;
+        top: 1px;
+    }
+
 }
-
-
-
-.imgNav {
-    width: 150px;
-    filter: invert(100%);
-    
-}
-
-.menu-t ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    
-}
-
-.menu-t ul li {
-    list-style: none;
-    margin-left: 23%;
-    font-size: 16px;
-    margin-top: 10px;
-
-}
-
-.menu-t ul li a {
-    text-decoration: none;
-    color: $color-palegray;
-    font-weight: bold;
-    transition: 0.2s ease-in-out;
-
-}
-
-.menu-t ul li a:hover {
-    color: 	#d9c38b;
-}
-
-.btnn2 button {
-    padding: 13px 20px;
-    border-radius: 15px;
-    background-color: rgb(40, 40, 40);
-    color: $color-white;
-    margin-right: 2%;
-    box-shadow: 0 2px $color-black;
-    position:relative;
-}
-
-.btnn2 button:hover {
-    background-color: rgb(40, 40, 40);
-    color: 	#d9c38b;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 1px;
-    top: 2px;
-}
-
-
-.srch-t {
-    width: 140px;
-    padding: 8px;
-    border-radius: 8%;
-    background: transparent;
-    border-radius: 2px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: 1%;
-    outline: 0;
-    
-}
-
-.search-t button {
-    padding: 2%;
-    width: 30%;
-    border-radius: 8px;
-    background-color: $color-black;
-    color: $color-white;
-    font-size: 15px;
-    background: rgb(40, 40, 40);
-    outline: none;
-    position:relative;
-    box-shadow: 0 3px $color-black;
-    font-size: 13px;
-    margin-top: 1px;
-}
-
-input .srch-t {
-    border: none;
-    margin: 10px 15px 5px;
-    font-size: 20px;
-    outline: none;
-    color: $color-black;
-}
-
-.search-t button:hover {
-    background-color:rgb(40, 40, 40);
-    color: 	#d9c38b;
-    box-shadow: 0 1px;
-    top: 1px;
-}
-
