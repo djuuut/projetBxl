@@ -238,69 +238,77 @@ input .srch-t {
 .container-grand {
   justify-content: center;
   align-items: center;
+  align-items: center;
 }
 
 .container-un {
   display: flex;
+  width: 100%;
 }
 .container-un .casino {
   width: 850px;
-  height: 650px;
-  padding-left: 150px;
+  height: 500px;
+  padding-left: 100px;
   padding-bottom: 100px;
   padding-top: 50px;
 }
 .container-un .titre-paragraphe {
   padding-left: 150px;
-  padding-top: 50px;
   padding-right: 150px;
 }
 
 .container-deux {
   display: flex;
   flex-direction: row-reverse;
+  text-align: center;
   padding-right: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 350px;
+  justify-content: center;
+  padding-top: 200px;
+}
+.container-deux .container-deux .texte-deux {
+  display: flex;
 }
 .container-deux .palaisr {
   width: 850px;
-  padding-left: 100px;
 }
 .container-deux .texte-deux {
-  padding-right: 300px;
-  align-self: center;
-  align-items: center;
-  padding-bottom: 300px;
+  padding-right: 200px;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-bottom: 500px;
+  justify-content: space-between;
 }
 
 .container-trois {
   display: flex;
-  padding-right: 150px;
-  align-items: center;
+  padding-right: 100px;
 }
 .container-trois .festival {
-  width: 850px;
-  padding-left: 250px;
+  width: 40%;
+  height: 50%;
+  padding-left: 50px;
   align-items: center;
 }
 
 .texte-trois {
   padding-left: 150px;
-  padding-top: 50px;
-  align-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  color: white;
 }
 
 p {
   line-height: 35px;
   font-family: "Quicksand", sans-serif;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  width: 1000px;
 }
 
 .festival {
-  height: 9%;
+  height: 8%;
 }
 
 .texte-deux {
@@ -309,11 +317,22 @@ h1 {
 }
 
 a {
-  color: rgb(24, 22, 170);
+  color: #d9c38b;
 }
 
 a:hover {
-  color: red;
+  color: rgb(219, 198, 10);
+}
+
+p {
+  color: #d9c38b;
+}
+
+fieldset {
+  width: 1000px;
+  border: solid;
+  color: #d9c38b;
+  margin-bottom: 400px;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -325,35 +344,40 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 150px;
+  }
+  .container-un .casino {
+    padding-bottom: 0;
   }
   .container-deux {
     flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 300px;
   }
-  /*img {
-      align-self: center;
-      align-content: center;
-      max-width: 650px;
-      max-height: 450px;
-      padding-top: 150px;
-  }*/
+  img {
+    align-self: center;
+    max-width: 550px;
+    max-height: 450px;
+    padding-top: 150px;
+  }
 }
 .t-un {
   align-items: center;
-  padding-left: 100px;
+  padding-left: 30px;
 }
 
 .titre-paragraphe {
   flex-wrap: wrap;
   max-width: 750px;
   max-height: 200px;
-  padding-bottom: 450px;
+  padding-bottom: 250px;
   padding-right: 200px;
 }
 
 .texte-deux {
-  max-width: 750px;
   max-height: 200px;
-  padding-bottom: 50px;
   flex-wrap: wrap;
 }
 
@@ -364,9 +388,33 @@ a:hover {
 .texte-trois {
   max-width: 550px;
   max-height: 200px;
-  padding-bottom: 450px;
+  padding-bottom: 250px;
 }
 
+@media only all and (min-width: 300px) and (max-width: 1699px) {
+  .texte-deux {
+    padding: 0;
+  }
+  .container-grand {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  img .casino .palaisr .festival {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .texte-deux fieldset {
+    width: 300px;
+  }
+  .container-deux {
+    padding-bottom: 0;
+    width: 100%;
+    margin-top: 35px;
+  }
+  .container-trois .festival {
+    width: 100%;
+  }
+}
 /* Partie HEADER */
 .imgdebxl-t img {
   width: 100%;
@@ -565,7 +613,7 @@ a:hover {
 }
 
 .card .content-t h2 {
-  color: #AA8453;
+  color: #d9c38b;
   text-transform: uppercase;
   font-size: 2em;
   line-height: 1em;
