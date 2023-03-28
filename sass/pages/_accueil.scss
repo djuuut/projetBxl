@@ -3,6 +3,9 @@
 
 /* Partie HEADER */
 
+#accueil-t {
+
+
 .imgdebxl-t img {
     width: 100%;
     filter: brightness(70%);
@@ -61,85 +64,6 @@
 
 }
 
-//SECONDE BOX IMG TXT // 
-
-/* .box2-t {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 10px;
-    justify-content: space-evenly;
-} 
-
-// PHOTO 1 // 
-
-.imgpisseur-t img {
-    width: 350px;
-    height: 460px;
-    border-radius: 70px;
-    filter: brightness(70%);
-    -webkit-filter: brightness(80%);
-    box-shadow: 0 3px 15px;
-
-    
-}
-
-.imgpisseur-t img:hover {
-    transform: translateY((20px));
-    transition: 0.5s all;
-    margin-right: 180px
-;
-
-   
-
-}
-
-
-.txt1-t {
-    margin-top: 110px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: $color-palegray;
-}
-
-
-.archeimg-t img {
-    width: 550px;
-    height: 460px;
-    border-radius: 70px;
-    box-shadow: 0 3px 15px;
-} 
-
-//3EME BOX IMG TXT // 
-
-.box3-t {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
-    margin-top: 100px;
-    justify-content: space-evenly;
-}
-
-.txt2-t { 
-    margin-top: 110px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: $color-palegray;
-}
-
-.archeimg-t img:hover {
-        transform: translateY((20px));
-        transition: 0.5s all;
-    }
-*/
-
-    //TEST //
-
-
-
-  
-    //images mannekenpis// 
 
     
     //description effet// 
@@ -232,4 +156,6 @@
         color: $color-palegray ;
     }
     
+}
+
 /* FIN Partie HEADER */
