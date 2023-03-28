@@ -138,18 +138,16 @@
 */
 
     //TEST //
-
     .card {
-        margin-left: 5%;
-        margin-top: 5%;
+        margin-left: 3%;
+        margin-top: 4%;
         position: relative;
         width: 600px;
         height: 350px;
-        border-radius: 20px;
         display: flex;
         align-items: center;
         border-radius: 20px;
-        transition: 0.5s;
+        transition: all 0.5s ease 0s;
     }
 
     .card .circle {
@@ -163,13 +161,14 @@
     }
 
     .card .circle::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: $color-description;
+        background: #161616;
+        -webkit-clip-path: circle(120px at center);
         clip-path: circle(120px at center);
         transition: 0.5s;
     }
@@ -185,12 +184,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         height: 300px;
-        //passage du curseur activé//
         pointer-events: none;
         transition: 0.5s;
         filter: invert(90%);
-
     }
+
 
     .card:hover img {
         left: 72%;
@@ -199,11 +197,11 @@
 
 
     .card .content-t {
-        position:relative;
+        position: relative;
         width: 50%;
         left: 20%;
-        padding: 20px 20px 20px 40px;  
-        transition: 0.5s;  
+        padding: 20px 20px 20px 40px;
+        transition: 0.5s;
         opacity: 0;
         visibility: hidden;
     }
@@ -216,15 +214,16 @@
     }
 
     .card .content-t h2 {
-         color: $color-gold;
-         text-transform: uppercase;
-         font-size: 2em;
-         line-height: 1em;
-         margin-bottom: 5px;
+        color: #AA8453;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 5px;
     }
 
     .card .content-t p {
         color: $color-palegray ;
+        font-size: 100%;
     }
 }
 /* FIN Partie HEADER */
