@@ -10,7 +10,12 @@ footer {
     display: flex;
     justify-content: center;
     color: $color-palegray;
+
+    @media screen and (max-width: 799px) 
+    { ;}
 }
+
+
 
 .reseaux {
     display: flex;
@@ -21,13 +26,18 @@ footer {
     margin-bottom: 3%;
 
     @media screen and (max-width: 799px) 
-    { margin-left: 50%; }
+    { margin-left: 5%; 
+    margin-top: 10%;    
+    margin-bottom: 5%;}
 }
 
 .reseaux img {
     filter: invert(100%);
     opacity: 90%;
     width: 80%; 
+
+    @media screen and (max-width: 799px) 
+    { width: 350%;;}
 }
 
 .facebook,
@@ -44,12 +54,15 @@ footer {
     margin-top: 10%;
 
     @media screen and (max-width: 799px) 
-    { margin-left: 60%; }
+    { margin-left: 0%; }
 }
 
 .illustration img {
     filter: invert(100%);
     opacity: 90%;
+
+    @media screen and (max-width: 799px) 
+    { width: 80%; }
 }
 
 .a {
