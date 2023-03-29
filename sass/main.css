@@ -231,8 +231,10 @@ form {
   padding-top: 50px;
 }
 .container-un .titre-paragraphe {
+  display: flex;
   padding-left: 150px;
   padding-right: 150px;
+  margin-top: 150px;
 }
 
 .container-deux {
@@ -240,7 +242,7 @@ form {
   flex-direction: row-reverse;
   text-align: center;
   padding-right: 100px;
-  padding-bottom: 350px;
+  padding-bottom: 150px;
   justify-content: center;
 }
 .container-deux .container-deux .texte-deux {
@@ -249,12 +251,15 @@ form {
 .container-deux .palaisr {
   width: 850px;
 }
-.container-deux .texte-deux {
+
+.texte-deux {
+  display: flex;
+  justify-content: space-between;
   padding-right: 200px;
   align-self: flex-start;
   align-items: flex-start;
-  padding-bottom: 500px;
-  justify-content: space-between;
+  align-content: space-between;
+  padding-top: 200px;
 }
 
 .container-trois {
@@ -263,11 +268,13 @@ form {
 .container-trois .festival {
   padding-left: 50px;
   align-items: center;
+  width: 850px;
 }
 
 .texte-trois {
   padding-left: 100px;
   align-items: flex-start;
+  margin-top: 100px;
 }
 
 h1 {
@@ -305,22 +312,27 @@ a:hover {
 fieldset {
   width: 1000px;
   border: solid;
+<<<<<<< HEAD
+  color: #d9c38b;
+=======
   color: #AA8453;
   margin-bottom: 400px;
+>>>>>>> a409361c1195713bb2d785402cef14bde3b291d8
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1000px) {
   .event {
     flex-wrap: wrap;
     justify-content: center;
   }
   .container-un {
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-bottom: 0;
-    padding-left: 150px;
+    padding-left: 100px;
   }
   .container-un .casino {
     padding-bottom: 0;
@@ -330,11 +342,19 @@ fieldset {
     justify-content: flex-end;
     margin-left: 300px;
   }
-  img {
-    align-self: center;
-    max-width: 550px;
-    max-height: 450px;
-    padding-top: 150px;
+  .palaisr {
+    padding-right: 350px;
+  }
+  .festival {
+    padding-top: 100px;
+    margin-left: 300px;
+  }
+  p .royal {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  fieldset {
+    justify-content: space-evenly;
   }
   .t-un {
     align-items: center;
@@ -360,6 +380,7 @@ fieldset {
     padding-bottom: 250px;
   }
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 1700px) and (min-width: 300px) and (max-width: 1699px) {
   .texte-deux {
     padding: 0;
@@ -381,6 +402,36 @@ fieldset {
     margin-top: 35px;
   }
 }
+=======
+.t-un {
+  align-items: center;
+  padding-left: 30px;
+}
+
+.titre-paragraphe {
+  flex-wrap: wrap;
+  max-height: 200px;
+  padding-bottom: 150px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.texte-deux {
+  max-height: 200px;
+}
+
+.container-trois {
+  flex-wrap: wrap;
+}
+
+.texte-trois {
+  max-width: 550px;
+  max-height: 200px;
+  padding-bottom: 250px;
+  margin-left: 150px;
+}
+
+>>>>>>> 0d84e381e06a52068aaf67ded0e549be1c683abb
 /* Partie HEADER */
 .top-nav {
   display: none !important;
