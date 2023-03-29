@@ -3,6 +3,148 @@
 
 /* Partie HEADER */
 
+//MENU BURGER//
+
+.top-nav {
+    display: none !important;
+}
+
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+.top-nav {
+  display: flex;
+  margin-left: 160%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 799px) {
+    .top-nav { 
+        display:flex !important;
+    }
+
+  .menu-button-container {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 98px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+// FIN MENUE BURGER //
+
 #accueil-t {
 
 
@@ -65,79 +207,6 @@
     }
 }
 
-//SECONDE BOX IMG TXT // 
-
-/* .box2-t {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 10px;
-    justify-content: space-evenly;
-} 
-
-// PHOTO 1 // 
-
-.imgpisseur-t img {
-    width: 350px;
-    height: 460px;
-    border-radius: 70px;
-    filter: brightness(70%);
-    -webkit-filter: brightness(80%);
-    box-shadow: 0 3px 15px;
-
-    
-}
-
-.imgpisseur-t img:hover {
-    transform: translateY((20px));
-    transition: 0.5s all;
-    margin-right: 180px
-;
-
-   
-
-}
-
-
-.txt1-t {
-    margin-top: 110px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: $color-palegray;
-}
-
-
-.archeimg-t img {
-    width: 550px;
-    height: 460px;
-    border-radius: 70px;
-    box-shadow: 0 3px 15px;
-} 
-
-//3EME BOX IMG TXT // 
-
-.box3-t {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
-    margin-top: 100px;
-    justify-content: space-evenly;
-}
-
-.txt2-t { 
-    margin-top: 110px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: $color-palegray;
-}
-
-.archeimg-t img:hover {
-        transform: translateY((20px));
-        transition: 0.5s all;
-    }
-*/
-
 // ILLUSTRATION ANIMÉS N°1 //
 
 .card {
@@ -150,6 +219,8 @@
     align-items: center;
     border-radius: 20px;
     transition: all 0.5s ease 0s;
+
+    
 }
 
 .card .circle {
@@ -189,6 +260,7 @@
     pointer-events: none;
     transition: 0.5s;
     filter: invert(90%);
+
 }
 
 
@@ -322,7 +394,7 @@
 // ILLUSTRATION ANIMÉS N°3 //
 
 .card3 {
-    margin-left: 10%;
+    margin-left: 3%;
     margin-top: 4%;
     position: relative;
     width: 600px;
@@ -407,6 +479,19 @@
 .card3 .content-t3 p {
     color: $color-palegray ;
     font-size: 100%;
+}
+
+@media (max-width: 799px) {
+    .search-t, .menu-t, .btnn2 { 
+        display: none;
+    }
+
+    #accueil-t .imgdebxl-t img {
+        object-fit: cover;
+
+    } 
+    
+
 }
 
 /* FIN Partie HEADER */
