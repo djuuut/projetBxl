@@ -853,12 +853,30 @@ html, body {
 }
 
 @media (max-width: 799px) {
+  .jnoun {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .jnoun2 {
+    display: block;
+  }
+  .box1-t {
+    margin-right: 30%;
+  }
   .search-t, .menu-t, .btnn2 {
     display: none;
   }
   #accueil-t .imgdebxl-t img {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .card img {
+    display: none;
+  }
+  .circle {
+    margin-top: 40%;
+    margin-right: 40%;
   }
 }
 /* FIN Partie HEADER *//*# sourceMappingURL=main.css.map */

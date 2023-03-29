@@ -114,7 +114,6 @@ html, body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    
   }
 
   #menu-toggle ~ .menu li {
@@ -483,6 +482,26 @@ html, body {
 }
 
 @media (max-width: 799px) {
+
+    .jnoun{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .jnoun2{
+        display: block;
+    }
+
+
+    .box1-t{
+        margin-right:30%;
+    }
+
+
+
+
+
     .search-t, .menu-t, .btnn2 { 
         display: none;
     }
@@ -491,7 +510,16 @@ html, body {
         object-fit: cover;
 
     } 
-    
+    .card img{
+        display: none;
+
+    }
+    .circle{
+         margin-top: 40%;
+         margin-right: 40%;
+    }
+   
+
 
 }
 
