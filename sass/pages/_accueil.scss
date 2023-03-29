@@ -6,62 +6,63 @@
 #accueil-t {
 
 
-.imgdebxl-t img {
-    width: 100%;
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
-    align-items: center;
-    position: relative;
-}
+    .imgdebxl-t img {
+        width: 100%;
+        filter: brightness(70%);
+        -webkit-filter: brightness(70%);
+        align-items: center;
+        position: relative;
+    }
 
-.box1-t {
-    margin-top: 430px;
-    margin-left: 180px;
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
-    position: absolute;
-    top: 0px;
-    color: $color-white;
-    text-align: center;
-}
+    .box1-t {
+        margin-top: 430px;
+        margin-left: 180px;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        position: absolute;
+        top: 0px;
+        color: $color-white;
+        text-align: center;
+    }
 
-.bvn-t {
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
+    .bvn-t {
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
 
 
-.button-t2x button {
-    padding: 20px 70px;
-    border-radius: 30px;
-    font-size: 15px;
-    background-color: $color-white;
-    opacity: 60%;
-    margin-right: 2%;
-    position: relative;
-    border:none;
-    margin-bottom: 20px;
+    .button-t2x button {
+        padding: 20px 70px;
+        border-radius: 30px;
+        font-size: 15px;
+        background-color: $color-white;
+        opacity: 60%;
+        margin-right: 2%;
+        position: relative;
+        border: none;
+        margin-bottom: 20px;
 
-}
+    }
 
-.button-t2x button:hover {
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 1px;
-    top: 2px;
-    background-color: $color-white;
-    opacity: 70%;
+    .button-t2x button:hover {
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 1px;
+        top: 2px;
+        background-color: $color-white;
+        opacity: 70%;
 
-}
+    }
 
-// TITRE N°2 //
+    // TITRE N°2 //
 
-.titrenumdeux-t {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 70px;
-    text-decoration: underline;
-    color: $color-palegray;
+    .titrenumdeux-t {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 70px;
+        text-decoration: underline;
+        color: $color-palegray;
 
+    }
 }
 
 //SECONDE BOX IMG TXT // 
@@ -137,93 +138,275 @@
     }
 */
 
-    //TEST //
-    .card {
-        margin-left: 3%;
-        margin-top: 4%;
-        position: relative;
-        width: 600px;
-        height: 350px;
-        display: flex;
-        align-items: center;
-        border-radius: 20px;
-        transition: all 0.5s ease 0s;
-    }
+// ILLUSTRATION ANIMÉS N°1 //
 
-    .card .circle {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        overflow: hidden;
-    }
+.card {
+    margin-left: 10%;
+    margin-top: 4%;
+    position: relative;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s ease 0s;
+}
 
-    .card .circle::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #161616;
-        -webkit-clip-path: circle(120px at center);
-        clip-path: circle(120px at center);
-        transition: 0.5s;
-    }
+.card .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
-    .card:hover .circle:before {
-        background-color: $color-description;
-        clip-path: circle(400px at center);
-    }
+.card .circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    -webkit-clip-path: circle(120px at center);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
 
-    .card img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 300px;
-        pointer-events: none;
-        transition: 0.5s;
-        filter: invert(90%);
-    }
+.card:hover .circle:before {
+    background-color: $color-description;
+    clip-path: circle(400px at center);
+}
 
-
-    .card:hover img {
-        left: 72%;
-        height: 400px;  
-    }
+.card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    pointer-events: none;
+    transition: 0.5s;
+    filter: invert(90%);
+}
 
 
-    .card .content-t {
-        position: relative;
-        width: 50%;
-        left: 20%;
-        padding: 20px 20px 20px 40px;
-        transition: 0.5s;
-        opacity: 0;
-        visibility: hidden;
-    }
+.card:hover img {
+    left: 72%;
+    height: 400px;
+}
 
-    .card:hover .content-t {
-        left: 0;
-        opacity: 1;
-        visibility: visible;
-    
-    }
 
-    .card .content-t h2 {
-        color: #AA8453;
+.card .content-t {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .content-t {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card .content-t h2 {
+    color: #AA8453;
     text-transform: uppercase;
     font-size: 2em;
     line-height: 1em;
     margin-bottom: 5px;
-    }
-
-    .card .content-t p {
-        color: $color-palegray ;
-        font-size: 100%;
-    }
 }
+
+.card .content-t p {
+    color: $color-palegray ;
+    font-size: 100%;
+}
+
+
+// ILLUSTRATION ANIMÉS N°2 //
+
+.card2 {
+    margin-left: 60%;
+    margin-top: 4%;
+    position: relative;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.card2 .circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card2 .circle2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    -webkit-clip-path: circle(120px at center);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+
+.card2:hover .circle2:before {
+    background-color: $color-description;
+    clip-path: circle(400px at center);
+}
+
+.card2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 260px;
+    pointer-events: none;
+    transition: 0.5s;
+    filter: invert(90%);
+}
+
+
+.card2:hover img {
+    left: 82%;
+    height: 350px;
+}
+
+
+.card2 .content-t2 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card2:hover .content-t2 {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card2 .content-t2 h2 {
+    color: #AA8453;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.card2 .content-t2 p {
+    color: $color-palegray ;
+    font-size: 100%;
+}
+
+// ILLUSTRATION ANIMÉS N°3 //
+
+.card3 {
+    margin-left: 10%;
+    margin-top: 4%;
+    position: relative;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.card3 .circle3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card3 .circle3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    -webkit-clip-path: circle(120px at center);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+
+.card3:hover .circle3:before {
+    background-color: $color-description;
+    clip-path: circle(400px at center);
+}
+
+.card3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    pointer-events: none;
+    transition: 0.5s;
+    filter: invert(90%);
+}
+
+
+.card3:hover img {
+    left: 90%;
+    height: 390px;
+}
+
+
+.card3 .content-t3 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card3:hover .content-t3 {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card3 .content-t3 h2 {
+    color: #AA8453;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.card3 .content-t3 p {
+    color: $color-palegray ;
+    font-size: 100%;
+}
+
 /* FIN Partie HEADER */
