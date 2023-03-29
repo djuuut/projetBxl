@@ -395,6 +395,14 @@ fieldset {
     justify-content: flex-end;
     margin-left: 300px;
   }
+<<<<<<< HEAD
+=======
+  /*img {
+      align-self: center;
+      max-height: 450px;
+      padding-top: 150px;
+  }*/
+>>>>>>> a31365b8ebf8b6596131c0a8004096c08802b195
   .t-un {
     align-items: center;
     padding-left: 30px;
