@@ -359,12 +359,7 @@ a:hover {
 fieldset {
   width: 1000px;
   border: solid;
-<<<<<<< HEAD
-  color: #d9c38b;
-=======
   color: #AA8453;
-  margin-bottom: 400px;
->>>>>>> a409361c1195713bb2d785402cef14bde3b291d8
 }
 
 @media only screen and (max-width: 1000px) {
@@ -389,34 +384,24 @@ fieldset {
     justify-content: flex-end;
     margin-left: 300px;
   }
-  .palaisr {
-    padding-right: 350px;
-  }
-  .festival {
-    padding-top: 100px;
-    margin-left: 300px;
-  }
-  p .royal {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  fieldset {
-    justify-content: space-evenly;
-  }
+  /*img {
+      align-self: center;
+      max-height: 450px;
+      padding-top: 150px;
+  }*/
   .t-un {
     align-items: center;
     padding-left: 30px;
   }
   .titre-paragraphe {
     flex-wrap: wrap;
-    max-width: 750px;
     max-height: 200px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     padding-right: 200px;
+    margin-bottom: 100px;
   }
   .texte-deux {
     max-height: 200px;
-    flex-wrap: wrap;
   }
   .container-trois {
     flex-wrap: wrap;
@@ -425,60 +410,9 @@ fieldset {
     max-width: 550px;
     max-height: 200px;
     padding-bottom: 250px;
+    margin-left: 150px;
   }
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 1700px) and (min-width: 300px) and (max-width: 1699px) {
-  .texte-deux {
-    padding: 0;
-  }
-  .container-grand {
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  img .casino .palaisr .festival {
-    width: 100%;
-    margin-left: 5%;
-  }
-  .texte-deux fieldset {
-    width: 300px;
-  }
-  .container-deux {
-    padding-bottom: 0;
-    width: 100%;
-    margin-top: 35px;
-  }
-}
-=======
-.t-un {
-  align-items: center;
-  padding-left: 30px;
-}
-
-.titre-paragraphe {
-  flex-wrap: wrap;
-  max-height: 200px;
-  padding-bottom: 150px;
-  padding-right: 200px;
-  margin-bottom: 100px;
-}
-
-.texte-deux {
-  max-height: 200px;
-}
-
-.container-trois {
-  flex-wrap: wrap;
-}
-
-.texte-trois {
-  max-width: 550px;
-  max-height: 200px;
-  padding-bottom: 250px;
-  margin-left: 150px;
-}
-
->>>>>>> 0d84e381e06a52068aaf67ded0e549be1c683abb
 /* Partie HEADER */
 .top-nav {
   display: none !important;
